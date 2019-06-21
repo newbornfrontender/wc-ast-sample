@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <my-custom-element>
+      <h1 slot="title">Hello world</h1>
+    </my-custom-element>
+
+    <my-greeting></my-greeting>
+
+    <template id="my-custom-element">
+      <slot name="title"></slot>
+
+      <p>It's <span>works</span></p>
+    </template>
+
+    <script type="module">
+      import '/index.js';
+    </script>
+  </body>
+</html>

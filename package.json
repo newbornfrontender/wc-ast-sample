@@ -1,0 +1,27 @@
+{
+  "name": "wc-ast-sample",
+  "version": "1.0.0",
+  "repository": "git@github.com:newbornfrontender/wc-ast-sample.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write **/*.{html,js,json}",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-private-methods": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "astring": "^1.4.0",
+    "deasync": "^0.1.15",
+    "estree-walker": "^0.6.1",
+    "magic-string": "^0.25.2",
+    "postcss": "^7.0.17",
+    "postcss-load-config": "^2.1.0",
+    "postcss-preset-env": "^6.6.0",
+    "prettier": "^1.18.2",
+    "rollup": "^1.15.5",
+    "rollup-plugin-node-resolve": "^5.0.2"
+  }
+}
