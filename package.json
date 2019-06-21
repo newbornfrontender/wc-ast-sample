@@ -5,7 +5,7 @@
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write **/*.{html,js,json}",
+    "format": "prettier --write **/*.{html,js,json,md}",
     "build": "rollup -c"
   },
   "devDependencies": {
